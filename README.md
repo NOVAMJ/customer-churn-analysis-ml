@@ -6,8 +6,7 @@ This project focuses on identifying churn risk factors, explaining model predict
 ---
 
 ## 📌 Table of Contents
-- [Overview](#overview)  
-- [Business Problem](#business-problem)  
+- [Overview](#overview)    
 - [Dataset](#dataset)  
 - [Tools & Technologies](#tools--technologies)  
 - [Project Structure](#project-structure)  
@@ -16,7 +15,6 @@ This project focuses on identifying churn risk factors, explaining model predict
 - [Modeling](#modeling)  
 - [Key Findings](#key-findings)  
 - [How to Run](#how-to-run)  
-- [Future Work](#future-work)
 
 ---
 
@@ -50,9 +48,8 @@ Customer churn is a critical business metric. This project explores historical c
 ## 📁 Project Structure
 churn-prediction/
 ├── data/ # Raw and processed data
-├── notebooks/ # EDA and modeling notebooks
-├── src/ # Scripts for cleaning, training, utils
 ├── requirements.txt # Dependencies
+├── notebooks/ # EDA and modeling notebooks
 └── README.md # Documentation
 
 ---
@@ -89,7 +86,7 @@ churn-prediction/
 - Customers with longer contracts churn less  
 - Bundled service offers can help reduce churn
 
-## 📊 Result
+##  Result
 
 | Model                     | Accuracy  | Recall Score | F1 Score  | ROC AUC Score |
 |---------------------------|-----------|-------------|-----------|---------------|
