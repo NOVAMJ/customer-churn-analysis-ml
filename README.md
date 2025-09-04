@@ -18,7 +18,7 @@ This project focuses on identifying churn risk factors, explaining model predict
 
 ---
 
-## 📖 Overview
+##  Overview
 Customer churn is a critical business metric. This project explores historical customer data to:  
 - Predict churn using ML classification models  
 - Identify key churn factors  
@@ -26,7 +26,7 @@ Customer churn is a critical business metric. This project explores historical c
 
 ---
 
-## 📂 Dataset
+##  Dataset
 - **Source:** [Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)  
 - **Records:** ~7,000 customer entries  
 - **Features:**  
@@ -37,7 +37,7 @@ Customer churn is a critical business metric. This project explores historical c
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - **Language:** Python  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SHAP  
 - **IDE:** Jupyter Notebook  
@@ -45,7 +45,7 @@ Customer churn is a critical business metric. This project explores historical c
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 churn-prediction/
 ├── data/ # Raw and processed data
 ├── requirements.txt # Dependencies
@@ -54,7 +54,7 @@ churn-prediction/
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+##  Data Cleaning & Preparation
 - Handled missing values in `TotalCharges`  
 - Encoded categorical features  
 - Normalized numerical variables  
@@ -62,7 +62,7 @@ churn-prediction/
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 - Higher churn observed among customers with:  
   - Month-to-month contracts  
   - High monthly charges  
@@ -71,14 +71,14 @@ churn-prediction/
 
 ---
 
-## 🤖 Modeling
+##  Modeling
 - Models tested: Logistic Regression, Random Forest, k-nearest neighbors, Support Vector Machine, XGBoost and Gradient Boosting
 - Best Model: **Gradient Boosting** (~86% accuracy)  
 - SHAP used for feature importance and explainability  
 
 ---
 
-## 🔑 Key Findings & Result
+##  Key Findings & Result
 - **Top churn drivers:**  
   - Contract type (Month-to-Month)  
   - High monthly charges  
@@ -99,7 +99,7 @@ churn-prediction/
 
 ---
 
-## 🖥️ How to Run
+##  How to Run
 ```bash
 # Clone repo
 git clone https://github.com/username/churn-prediction.git
